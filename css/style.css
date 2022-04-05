@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(24, 22, 22);
+}
+#nav{
+    position: fixed;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    margin-left: 20px;
+    width: 100%;
+    height: 70px;
+    margin-left: 0px;
+}
+#logo img{
+    cursor: pointer;
+    height:60px;
+    width: 60px;
+    margin: 20px;
+}
+#nav a{
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+#nav a:hover{
+    color: rgb(24, 22, 22); 
+    background-color: whitesmoke;
+}
+#home{
+    text-align: center;
+    /* background:url("/img/nike.jpg"); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    color: white;
+    
+}
+
+#home h1{
+    text-align: center;
+    font-size: 7rem;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+#home p{
+    font-size: 1.08rem;
+    margin: 05px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+#home button{
+    font-family: 'Bebas Neue', cursive;
+    border: 2px solid black;
+    padding: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+#home #shop:hover{
+    background-color: black;
+    color: white;
+    border-color: #00B4E4 ;
+    cursor: pointer;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("../img/justdid.jpg") no-repeat center/cover;
+    height: 620px;
+    image-resolution: 500dpi;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.service-contain{
+    display: block;
+    justify-content: center;
+   /*  border: 2px solid white; */
+    margin:50px;
+    height: 600px;
+    color: white;    
+}
+.service-contain h2{
+    font-family: 'Courgette', cursive;
+    padding: 10px;
+    margin-top:20px ;
+    font-size: 40px;
+    text-align: center;
+}
+
+.services{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    margin: 10px;
+    top: 30px;
+    justify-content: center;
+}
+.box{
+    margin: 40px;
+   /*  border: 2px solid yellow; */
+    height: 400px;
+    margin-top: 30px;
+    width: 450px;
+}
+.box img{
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+    height: 250px;
+    width: 350px;
+    box-shadow: 7px 5px 4px rgb(80, 78, 78)  ;
+    
+}
+.box h3{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 20px;
+    padding-top:1.1rem;
+    color: white;
+    text-align: center;
+}
+.box h1{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+}
+.ordernow{
+  display: block;
+  margin: auto;
+    margin-top: 15px;
+    /* margin-left: 37%; */
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: rgb(177, 160, 160);
+    border: 2px solid  #00B4E4 ;
+    font-family: 'Dosis', sans-serif;
+    padding: 3.4px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.ordernow:hover{
+    background-color:#00B4E4  ;
+    color: white;
+    
+}
+.expensive{
+    text-align: center;
+    /* background:url("/img/nike.jpg"); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    color: white;
+}
+
+.expensive::before{
+    content: "";
+    position: absolute;
+    background: url("//img/bg.webp") no-repeat center/cover;
+    height: 600px;
+    image-resolution: 500dpi;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+.expensive h2{
+    font-family: 'Prompt', sans-serif;
+    padding: 10px;
+    margin-top:20px ;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
